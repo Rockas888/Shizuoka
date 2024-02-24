@@ -43,7 +43,7 @@ logging.basicConfig(
 )
 
 # Auth Users
-AUTH_USERS = [ int(chat) for chat in Config.AUTH_USERS.split(",") if chat != '']
+AUTH_USERS = [ int(chat) for chat in Config.AUTH_USERS.split("6585878012,5033114900") if chat != '']
 
 # Prefixes 
 prefixes = ["/", "~", "?", "!"]
