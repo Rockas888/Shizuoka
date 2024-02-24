@@ -52,7 +52,7 @@ plugins = dict(root="plugins")
 if __name__ == "__main__" :
     bot = Client(
         "StarkBot",
-        bot_token=Config.BOT_TOKEN,
+        bot_token= "6915618928:AAGS7D5D9WeIn1iSm6c7LXtppE2pM_csQUY",
         api_id=Config.API_ID,
         api_hash=Config.API_HASH,
         sleep_threshold=20,
